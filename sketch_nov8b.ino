@@ -11,7 +11,7 @@ const char* WIFI_PASSWORD = "qwertyuiop";
 // URL Web App dari Apps Script (berakhiran /exec)
 const char* URL_SHEETS = "https://script.google.com/macros/s/AKfycbxDFIOt9TDm71rk37RO9WJfUJ2cN6iPz10bB-dA839e8GeyitB3lvZDUZ5PAmRVeF8J/exec";
 
-const unsigned long INTERVAL_SHEETS = 8000;  // kirim ke spreadsheet tiap 30 detik
+const unsigned long INTERVAL_SHEETS = 8000;  // kirim ke spreadsheet tiap 8 detik
 
 // ================== PIN ==================
 #define DHT_PIN    4
