@@ -309,7 +309,7 @@ void loop() {
     kontrolPompa(sekarang);
   }
 
-  // Kirim data ke Google Sheets tiap 30 detik
+  // Kirim data ke Google Sheets tiap 8 detik
   if (sekarang - waktuSheetsTerakhir >= INTERVAL_SHEETS) {
     waktuSheetsTerakhir = sekarang;
     kirimKeSheets();
